@@ -6,9 +6,9 @@ os.makedirs("data", exist_ok=True)
 
 # Create sample product data
 df = pd.DataFrame({
-    "product": ["Laptop", "Phone", "Headphones"],
-    "price": [55000, 25000, 3000],
-    "category": ["Electronics", "Electronics", "Accessories"]
+    "product": ["Laptop", "Phone", "Headphones", "Tablet", "Keyboard"],
+    "price": [55000, 25000, 3000, 20000, 1500],
+    "category": ["Electronics", "Electronics", "Accessories", "Electronics", "Accessories"]
 })
 
 # Save data as CSV
